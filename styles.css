@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #eae2cf;
+  }
+  
+  p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+/* Header */
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    color: #485065 ;
+}
+
+main {
+    margin: 20px 30px;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #588b71;
+    border: 2px solid #588b71;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+    background-color: #588b71;
+    cursor: pointer;
+
+}
